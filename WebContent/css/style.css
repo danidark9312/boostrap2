@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 600px;
+      height: 400px;
+      margin: auto;
+  }
+  .carousel-control{
+	background-color: rgb(255, 255, 255);
+  }
+  
+  .item img {
+  height: 80px;
+  }
+  
+  
