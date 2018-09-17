@@ -13,7 +13,7 @@ import javax.mail.internet.MimeMessage;
 import com.daniel.gutierrez.util.PropertieManager;
 
 public class EmailHelper {
-	
+	private static boolean SENDEMAIL = true;
 	private static EmailHelper emailHelper;
 	
 	public static EmailHelper getInstance(){
@@ -32,9 +32,9 @@ public class EmailHelper {
 		properties.put("mail.smtp.starttls.enable", "true");
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 		properties.put("mail.smtp.port", "587");
-
+		properties.put("mail.debug", "true");
 		Session session = Session.getInstance(properties, new javax.mail.Authenticator(){
-
+		
 			protected PasswordAuthentication getPasswordAuthentication() {
 				return new PasswordAuthentication(fromUser, frompassword);
 			}
@@ -44,12 +44,15 @@ public class EmailHelper {
 		MimeMessage message = new MimeMessage(session);
 		try {
 			message.setFrom(new InternetAddress(fromUser));
-			message.addRecipients(Message.RecipientType.TO, 
-					new InternetAddress[]{new InternetAddress("danielgm9312@hotmail.com"),
-					 new InternetAddress("Maestromiguel77@gmail.com")
-					}
-			);
-			message.setSubject(contact.getSubject());
+			if (SENDEMAIL) {
+				message.addRecipients(Message.RecipientType.TO,
+						new InternetAddress[] { new InternetAddress("danielgm9312@hotmail.com")
+								, new InternetAddress("manuytala99@gmail.com")
+
+						});
+			}
+			
+			message.setSubject("Pregunta rapida");
 			message.setContent(getMessageBody(contact), "text/plain");
 			
 			System.out.println(getMessageBody(contact));
@@ -65,15 +68,23 @@ public class EmailHelper {
 		return isExito;
 	}
 	
+	public boolean sendEmail(Client client) {
+		Contact contact = new Contact();
+		contact.setEmail(client.getEmail());
+		contact.setName(client.getName());
+		contact.setPhone(client.getPhone());
+		contact.setMessage(client.getQuestion());
+		return sendEmail(contact);
+	}
+	
 	private String getMessageBody(Contact contact){
 		StringBuilder sb = new StringBuilder();
-		sb.append("La persona "+contact.getName()+" ha enviado el siguiente mensaje: \n\n" );
+		sb.append("La persona "+contact.getName()+" ha enviado la siguiente pregunta: \n\n" );
 		sb.append(contact.getMessage());
-		sb.append("\n");
 		sb.append("\n");
 		sb.append("Datos del remitente");
 		sb.append("\n");
-		sb.append("Émail: "+contact.getEmail());
+		sb.append("Émail: "+contact.getEmail()==null?"N/A":contact.getEmail());
 		
 		if(contact.getPhone() != null && !contact.getPhone().trim().equals("")){
 			sb.append("\n");

@@ -44,7 +44,7 @@
 								</div>
 
 								<div class="item">
-									<img src="img/slides/slide2.jpg" alt="Chania">
+									<img src="img/slides/slide2.3.jpg" alt="Chania">
 								</div>
 
 								<div class="item">
@@ -73,13 +73,35 @@
 							<small>Asesoría <strong>Espiritual</strong>
 							</small>
 						</h2>
+						
+						<%@include file="include/subMenu.jsp"%>
+						
 					</div>
 				</div>
 			</div>
 		</div>
+
+		
+
 		<div class="row">
 	            <div class="box">
-					<div class="col-lg-12">
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="centerImage">
+							<a href="Ofertas/Verano/OfertaVerano.jsp"><img src="Ofertas/Verano/img/Oferta.png" style="width: 340px" /></a>
+						</div>
+					</div>
+					<div class="col-sm-12" style="text-align: center;">
+						<p>Gracias a nuestros excelentes procesos y recomendaciones
+							puedes recibir la ayuda necesaria y profesional ,ingresa para
+							conocer más detalles sobre los descuentos de Temporada</p>
+					</div>
+					<hr>
+				</div>
+				<hr />
+
+				<div class="col-lg-12">
 						<hr>
 						<h2 class="intro-text text-center">
 							¿Problemas en el <strong>amor</strong>?
@@ -95,15 +117,9 @@
 					<h2 class="intro-text text-center">DEJA TU FELICIDAD EN MANOS DE EXPERTOS</h2>
 					
 				</div>
-					<div class="col-xs-6 imagenes-familia-container" style="text-align: right;">
-					<h1 class="intro-text" style="text-align: right;"><%=telephone%></h1>
-						<img src="img/index/familia_silueta.jpg"/>
-					</div>
-					<div class="col-xs-6 imagenes-familia-container" style="text-align: left;">
-						<h1 class="intro-text" style="text-align: left;"><%=telephone2%></h1>
-						<img src="img/index/familia_silueta2.jpg"/>
-					</div>
-				</div>
+					<%@include file="call.jsp"%>
+
+			</div>
 	        </div>
 
         <div class="row">
@@ -131,7 +147,7 @@
 					</ul>
 
 					<div class="centerImage">
-						<img src="img/index/calavera.jpg" style="width: 80%" />
+						<img src="img/index/calavera2.jpg" style="width: 80%" />
 					</div>
 
 

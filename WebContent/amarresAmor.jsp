@@ -51,17 +51,17 @@
 					<hr class="visible-xs">
 					<div class="row">
 						<div class="col-sm-12" style="text-align: left;">
-							<p>Desea dominar a su pareja primero reciba la consulta y
-								asesórese sobre lo que sucede y encuentre solución de la mano de
-								uno de nuestros expertos certificados y garantizados.
-								<br/>En la Rama del amor no dude en llamar cuéntanos de tu caso
+							<p>Desea dominar a su pareja?. Primero reciba la consulta y
+								asesórese sobre lo que sucede, encuentre solución de la mano de
+								uno de nuestros expertos.
+								<br/>En la Rama del amor no dude en llamar, cuéntanos de tu caso
 								para saber el material que debes utilizar para el endulzamiento
-								o el amarre de amor a desarroallar<br/>
+								o el amarre de amor a desarroallar.<br/>
 								Se perfectamente que muchas personas están sufriendo por
 								la pérdida de un amor. No es nada fácil lidiar con el día a día
 								cuando tienes el corazón destrozado. Se que te mata por dentro
 								no volver sentir sus besos, sus caricias, sus abrazos... te
-								ayudamos a recuperarla llamanos ya ¡¡¡</p>
+								ayudamos. llamanos ya ¡¡¡</p>
 							<ul>
 								<li><%=telephone%></li>
 								<li><%=telephone2%></li>
@@ -102,18 +102,7 @@
 					
 					<div class="row">
 						<div class="col-sm-12">
-							<div class="col-xs-6 imagenes-familia-container"
-								style="text-align: right;">
-								<h1 class="intro-text"
-									><%=telephone%></h1>
-								<img src="img/index/familia_silueta.jpg" />
-							</div>
-							<div class="col-xs-6 imagenes-familia-container"
-								style="text-align: left;">
-								<h1 class="intro-text"
-									><%=telephone2%></h1>
-								<img src="img/index/familia_silueta2.jpg" />
-							</div>
+							<%@include file="call.jsp"%>
 
 						</div>
 					</div>

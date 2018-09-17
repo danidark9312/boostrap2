@@ -49,18 +49,18 @@
 					<p>
 	Usted comprende y está completamente de acuerdo con
 	<%=urlPage%>
-	y sus Maestros, que ninguna empresa subsidiaria, será responsable por
+	y sus Maestros, que ninguna empresa subsidiaria será responsable por
 	cualquier tipo de pérdidas o daños relacionados con los Términos y
 	Condiciones, así mismo, por el mal uso del sitio web, ni por el uso que
-	usted le dé, a la información obtenida en nuestro sitio web, sea en
-	vivo o por los textos que aquí se encuentran, las respuestas a sus
+	usted le dé a la información obtenida en nuestro sitio web (sea en
+	vivo o por los textos que aquí se encuentran) y las respuestas a sus
 	consultas por correo electrónico, o cualquier información de nuestros
-	servicios en la página web. También usted comprende, que los medios
+	servicios en la página web. También usted comprende que los medios
 	utilizados por este sitio web para publicar y promocionar sus
-	servicios, por medio de Internet, y las empresas que los faciliten,
-	como buscadores y demás. No tienen relación alguna, con los servicios
-	que acá se ofrecen y el cumplimiento, o no, de estos, al igual que el
-	contenido incluido, es responsabilidad únicamente de
+	servicios (por medio de Internet, y las empresas que los faciliten
+	como buscadores y demás) no tienen relación alguna con los servicios
+	que acá se ofrecen y el cumplimiento o no de estos, asi como el
+	contenido incluido es responsabilidad únicamente de
 	<%=urlPage%></p>
 </BR>
 <hr>
@@ -76,12 +76,12 @@
 		NO obtener el resultado deseado.</li>
 
 	<li>El uso de la información y asesoría que está a punto de
-		recibir es bajo su responsabilidad. Únicamente llegamos hasta donde el
+		recibir es bajo su responsabilidad, únicamente llegamos hasta donde el
 		sentido común lo permite.</li>
 
 	<li>Así acepta los servicios que prestamos, los encarga porque así
 		lo desea, en ningún momento hubo persuasión, cohibición o presión
-		alguna hacerlo y estará sujeto a su propia interpretación y uso.</li>
+		alguna a hacerlo y estará sujeto a su propia interpretación y uso.</li>
 </ul>
 
 <hr>
@@ -119,7 +119,7 @@
 <h5>COSTO DE LLAMADAS</h5>
 
 <ul>
-	<li>El sitio web www.almasdelamor.com no realiza ningún cobro por
+	<li>El sitio web <%=urlPage%> no realiza ningún cobro por
 		su comunicación telefónica, los valores que le sean facturados por tal
 		concepto, serán los ya acordados entre usted y su empresa de
 		telefonía, así mismo, serán estos mismo quienes realicen el recaudo de
@@ -128,7 +128,7 @@
 		Unidos, no tendrá un coste adicional.</li>
 	<li>El valor de la llamada al número <%=telephone%> dentro del
 		territorio de los EE.UU tiene un costo de $0,20 US dólar, Incluido
-		impuestos.</li>
+		impuestos. (Aproximadamente, los valores pueden variar según la compañia encargada de suministrarle los serviciosem)</li>
 
 </ul>					
                     <hr>

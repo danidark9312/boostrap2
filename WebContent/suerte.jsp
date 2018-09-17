@@ -50,32 +50,21 @@
 					<hr>
 						<div class="row">
 						<div class="col-sm-12">
-							<p>Se encuentra en una situación económica difícil, no
-								encuentra trabajo, ni tiene estabilidad laboral, el dinero que
-								recibe se le va como agua entre las manos, las relaciones en el
-								hogar están en crisis por su situación.</p>
-							<p>Antes tenía buena suerte, ganaba premios le iba bien en
-								todo lo que planeaba mantenía trabajo estable, tenía suerte en
+							<p>Si se encuentra en una situación económica difícil?. No
+								encuentra trabajo o no tiene estabilidad laboral, y el dinero que
+								recibe se le va como agua entre las manos?. Las relaciones en el
+								hogar están en crisis por su situación?. Nosotros podemos ayudarle</p>
+							<p>Antes tenía buena suerte, ganaba premios, le iba bien en
+								todo lo que planeaba y mantenía un trabajo estable, tenía suerte en
 								el amor pero ya no sabe que ha pasado ni por qué perdió esa
-								buena suerte consulte ya mismo y si es culpa de alguien que no
-								lo quiere ver bien aléjelo completamente de su vida</p>
+								buena suerte?. Consulte ya mismo y si es culpa de alguien que no
+								lo quiere ver bien, aléjelo completamente de su vida</p>
 						</div>
 					</div>
 					
 					<div class="row">
 						<div class="col-sm-12">
-							<div class="col-xs-6 imagenes-familia-container"
-								style="text-align: right;">
-								<h1 class="intro-text"
-									><%=telephone%></h1>
-								<img src="img/index/familia_silueta.jpg" />
-							</div>
-							<div class="col-xs-6 imagenes-familia-container"
-								style="text-align: left;">
-								<h1 class="intro-text"
-									><%=telephone2%></h1>
-								<img src="img/index/familia_silueta2.jpg" />
-							</div>
+							<%@include file="call.jsp"%>
 
 						</div>
 					</div>

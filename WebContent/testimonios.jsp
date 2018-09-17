@@ -51,13 +51,18 @@
 					<h2>
 						<br> Soy Jose Enriquez Maldonado</>
 					</h2>
-					<p>Esta es mi historia, tengo 29 años y hace 7 mi esposa me
-						abandonó. He dedicado mi tiempo a la pezca pero perdí mucho peso,
+					<p>Esta es mi historia. Tengo 29 años, hace 7 años mi esposa me
+						abandonó, me dediqué a la pezca, perdí mucho peso,
 						me enfermé y perdí mi trabajo. Gracias al maestro mi vida ahora
 						tiene sentido, tengo mi esposa y mis 2 hijos y un excelente
 						trabajo. Dios ha tocado mi puerta, estoy mas que agradecido con el
 						centro espiritual.</p>
 					<p>Este soy yo después de conocer y sentir la precensia de Dios</p>
+					<br/>
+					<div class="centerImage">		
+								<img src="img/testimonios/hfd.jpg" style="width: 60%" />
+					</div>
+					
 					<BR />
 					<h2>
 						<br> Hola soy Maria Cortes</>
@@ -65,10 +70,14 @@
 					<p>Estoy muy agradecida con el centro espiritual, me ayudaron a
 						recuperar a mi familia. Yo estaba sola con mi niña, tengo 23 años
 						y gracias a los consejos del maestro y a sus oraciones ahora tengo
-						a mi pareja cerca. No se como agradecerle tanto lo que hicieron.
-						Vivo en los angeles muchas gracias los quierio mucho dios me los
+						a mi pareja cerca. No se como agradecerle todo lo que hicieron.
+						Vivo en los angeles, muchas gracias. Los quierio mucho, dios me los
 						bendiga.</p>
 					<h2>
+					<br/>
+					<div class="centerImage">		
+								<img src="img/testimonios/fc.jpg" style="width: 60%" />
+					</div>
 						<br> Me llamo Carmen Rastrillo</>
 					</h2>
 					<p>Por culpa de una entrometida había perdido mi esposo,
@@ -77,6 +86,11 @@
 						Juaquin cambió porque esta mas entregado a la familia y dejo de
 						tomar. Gracias a Dios y los maestros del centro epiritual</p>
 					<h2>
+					<br/>
+					<div class="centerImage">		
+								<img src="img/testimonios/pareja.jpg" style="width: 60%" />
+					</div>
+					
 						<br> Soy Yhoany Navarro</>
 					</h2>
 					<p>Desde que llegue a Estados Unidos mi vida se torno muy
@@ -84,8 +98,12 @@
 						ayudaron a quitar toda esa sal y mala suerte que me habían
 						cargado, pero ya soy libre, duermo bien y no tengo problemas en mi
 						salud. Gracias a los hermanos del centro epiritual mi vida esta
-						estable y pude sanarme si Dios lo permite amén</p>
+						estable y pude sanarme.</p>
 					<hr>
+					<br/>
+					<div class="centerImage">		
+								<img src="img/testimonios/pareja2.jpg" style="width: 60%" />
+					</div>
 				</div>	
 
 

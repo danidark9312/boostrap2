@@ -45,75 +45,83 @@
 				<div class="col-lg-12 text-center">
 					
 					<hr>
-					<h2 class="intro-text text-center">Unión de pareja</strong>
+					<h2 class="intro-text text-center">Hechizos para el amor</strong>
 					</h2>
 					<hr>
 					<hr class="visible-xs">
+					
 					<div class="row">
-						<div class="col-sm-12">
-							<p>¿Le gustaría que su pareja sintiera por usted lo mismo que
-								sintió al principio de la relación?</p>
-							<p>La unión de parejas con magia blanca consisten en enviar
-								ondas mentales a la persona que ama para que piense en usted, se
-								acuerde de los momentos bonitos vividos, se dé cuenta de su
-								profundo amor hacia él o ella y disuelve mágicamente los malos
-								entendidos, las malas energías que pudieron llevar a la ruptura
-								o el alejamiento</p>	
+						
+						<div class="col-sm-6">
+							<p>Los hechizos de amor, también conocidos como
+								endulzamientos o encantamientos amorosos, son ejecutados en una
+								serie de pasos en conjunto con uno de nuestros expertos</p>
+							<p>Un hechizo de amor se realiza para obtener un resultado en
+								el ámbito de enamorar a una persona que sienta más cariño y
+								atracción hacia quien desarrolle el ritual para el amor. Existen
+								diferentes tipos de hechizos</p>
+							<p>Para lograr los resultados con estos hechizos sencillos,
+								se debe seguir estrictamente los pasos a realizar dirigidos por
+								un experto espiritista del templo</p>
+							<p>Asumir como persona responsable y puntualmente realizar
+								oraciones indicadas para que su hechizo de amor o amarre de amor
+								sea totalmente efectivo</p>
+							<p>Son hechizos fáciles y efectivos, que pueden ayudar en
+								poco tiempo a mejorar su vida en todos los aspectos</p>
 							
 						</div>
-					</div>
-					<hr>
-					<div class="row">
-						<div class="col-sm-12">
+						
+						<div class="col-sm-6">
 							<div class="centerImage">		
-								<img src="img/union/union.png" style="width: 60%" />
+								<img src="img/hechizos/tarot2.jpg" style="width: 60%" />
 							</div>
 						</div>
+						
+					</div>
+					
+					<hr>
+					<div class="row">
+						
 					</div>
 					<hr>
 					<div class="row">
-					
-					<hr class="visible-xs">
-					
-					<div class="col-sm-12">
-
-							<p>Es magia amorosa con energía cuántica la cual es la más
-								poderosa del mundo, se basa en el Poder de la Mente, la
-								Visualización. La oración no trae consecuencias negativas de
-								ninguna clase porque se trabaja con Energías de Luz Blanca de
-								ayuda, protección, bondad y el verdadero amor de los espíritus
-								celestes. La Fe mueve montañas</p>
-							<p>Regrese su pareja sin importar distancia, no importa sexo ni diferencia de edad.</p>
-
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
+						<div class="col-sm-6">
 							<div class="centerImage">		
-								<img src="img/union/sameSex.png" style="width: 100%" />
+								<img src="img/hechizos/magia_negra.jpg" style="width: 60%" />
 							</div>
 						</div>
-					</div>
-					<hr>
-					<hr>
-					
-					<div class="row">
-						<div class="col-sm-12">
+						<div class="col-sm-6">
+							<p>Antes de realizar un hechizo de amor tenga presente usar magia
+								blanca para no tener problemas con malos espíritus o entes elementales,  
+								no use magia negra a menos que este acompañado de un
+								brujo negro capacitado de realizar brujerías de amor con toda la
+								precaución necesaria, si deseas saber más pregunta por el brujo
+								negro en nuestra congregación. Llámanos sin costo adicional</p>
+						</div>
+						
+						<div class="col-sm-6">
+							<p>Tambien le puede interesar:</p>
+							<ul>
+								<li><a href="amarresAmor.jsp">Amarres de amor efectivos</a></li>
+								<li><a href="comoHacerAmarre.jsp">Pasos para hacer un amarre en casa</a></li>
+							<li><a href="ritualesAmor.jsp">Rituales de amor</a></li>
+						</ul>
+						</div>
+						
+						
 							
-
+					</div>
+					<hr>
+					<hr>
+					<div class="row">
+						<div class="col-sm-12">
 							<%@include file="call.jsp"%>
 
 						</div>
 					</div>
-					
-
-
 				</div>	
-
-
 			</div>
         </div>
-
     </div>
     <!-- /.container -->
 

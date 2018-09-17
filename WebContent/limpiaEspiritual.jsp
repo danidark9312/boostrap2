@@ -59,7 +59,7 @@
 							<p>Cuando nos sentimos saturados, atascados, o cuando
 								sufrimos un cambio importante en nuestra vida como puede ser un
 								cambio de casa, el inicio de un nuevo proyecto personal o cuando
-								queremos reestructurarnos a nivel profesional o comencemos algún
+								queremos reestructurarnos a nivel profesional o comenzar algún
 								reto nuevo, es el momento ideal para realizar una limpieza
 								energética y espiritual.</p>
 						</div>
@@ -80,7 +80,7 @@
 					<div class="col-sm-12">
 							
 					<p>Lo orientamos para que aleje de su vida todo aquello que le
-						causa daño y dolor. Lo guiamos para que tenga un equilibrio
+						causa daño y dolor y lo guiamos para que tenga un equilibrio
 						emocional en su vida.</p>
 
 						</div>
@@ -88,22 +88,9 @@
 					<hr>
 					<div class="row">
 						<div class="col-sm-12">
-							<p>Si no duermes, sientes presencias extrañas en tu casa,
-								tienes sueños con muertos o pesadillas busca ayuda llámanos
-								ahora mismo consulta gratis</p>
+								
 
-							<div class="col-xs-6 imagenes-familia-container"
-								style="text-align: right;">
-								<h1 class="intro-text"
-									><%=telephone%></h1>
-								<img src="img/index/familia_silueta.jpg" />
-							</div>
-							<div class="col-xs-6 imagenes-familia-container"
-								style="text-align: left;">
-								<h1 class="intro-text"
-									><%=telephone2%></h1>
-								<img src="img/index/familia_silueta2.jpg" />
-							</div>
+							<%@include file="call.jsp"%>
 
 						</div>
 					</div>
